@@ -1,0 +1,28 @@
+.container {
+  height: 100vh;
+  display: grid;
+  grid-template-columns: 4rem 4rem;
+  grid-template-rows: 4rem 4rem;
+  grid-template-areas: 
+   "counter counter"
+   "plus less";
+  justify-content: center;
+  align-content: center;
+  gap: 1rem;
+}
+
+.counter {
+  grid-area: counter;
+  text-align: center;
+  font-size: 3rem;
+}
+
+.btn-plus {
+  grid-area: plus;
+  background-color: skyblue;
+}
+
+.btn-less {
+  grid-area: less;
+  background-color: salmon;
+}
