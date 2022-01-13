@@ -5,11 +5,13 @@ import ReactDOM from 'react-dom';
 // import { MediumCounter } from './use-state/medium-counter/medium-counter';
 // import { MediumForm } from './use-effect/medium-form/medium-form';
 // import { TrafficLight } from './traffic-light/traffic-light';
-import { SimpleFocus } from './use-ref/simple-focus/simple-focus';
+// import { SimpleFocus } from './use-ref/simple-focus/simple-focus';
+// import { FnMemo } from './use-memo/fn-memo/fn-memo';
+import { BasicMemo } from './use-memo/basic-memo/basic-memo';
 
 ReactDOM.render(
   <Fragment>
-    <SimpleFocus></SimpleFocus>
+    <BasicMemo></BasicMemo>
   </Fragment>,
   document.getElementById('root')
 );
