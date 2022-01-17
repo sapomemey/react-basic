@@ -7,11 +7,12 @@ import ReactDOM from 'react-dom';
 // import { TrafficLight } from './traffic-light/traffic-light';
 // import { SimpleFocus } from './use-ref/simple-focus/simple-focus';
 // import { FnMemo } from './use-memo/fn-memo/fn-memo';
-import { BasicMemo } from './use-memo/basic-memo/basic-memo';
+// import { BasicMemo } from './use-memo/basic-memo/basic-memo';
+import { BasicUseCallback } from './use-callback/basic/basic-use-callback';
 
 ReactDOM.render(
   <Fragment>
-    <BasicMemo></BasicMemo>
+    <BasicUseCallback></BasicUseCallback>
   </Fragment>,
   document.getElementById('root')
 );
